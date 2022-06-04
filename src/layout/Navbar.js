@@ -1,6 +1,6 @@
 import React from 'react'
 import logo from '../image/logo.png'
-import SideMenu from './SideMenu'
+import SideMenu from '../components/SideMenu'
 import {RiArrowDownSLine} from 'react-icons/ri'
 import {RiArrowUpSLine} from 'react-icons/ri'
 import { useGlobalContext } from '../context'

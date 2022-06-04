@@ -8,9 +8,9 @@ import React from 'react'
 const Layout = () => {
   return (<>
     <Navbar/>
-    <Main/>
     <Outlet/>
-    {/* <Footer/> */}
+    <Main/>
+    <Footer/>
     </>
   )
 }

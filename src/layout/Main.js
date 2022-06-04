@@ -1,8 +1,8 @@
 import React from 'react'
 import { useGlobalContext } from '../context'
-import PanelLocation from './PanelLocation'
-import PanelResources from './PanelResources'
-import PanelServices from './PanelServices'
+import PanelLocation from '../components/PanelLocation'
+import PanelResources from '../components/PanelResources'
+import PanelServices from '../components/PanelServices'
 
 //import Home from './Home'
 const Main = () => {

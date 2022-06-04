@@ -1,7 +1,7 @@
 
 import Getquote from "./components/Getquote";
-import Footer from './components/Footer'
-import Layout from "./components/Layout";
+import Footer from './layout/Footer'
+import Layout from "./layout/Layout";
 import Home from "./components/Home";
 import Blog from "./components/Blog";
 import Nothing from "./components/Nothing";
@@ -17,7 +17,7 @@ function App() {
         <Route path='nothing' element={<Nothing/>}/>
       </Route>
     </Routes>
-    <Footer/>
+   
   </div>
   );
 }

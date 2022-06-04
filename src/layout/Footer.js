@@ -4,12 +4,13 @@ import {FaFacebookF} from 'react-icons/fa'
 import {FaTwitter} from 'react-icons/fa'
 import {FaGoogle} from 'react-icons/fa'
 import {FaInstagram} from 'react-icons/fa'
+import { Link } from 'react-router-dom'
 const Footer = () => {
   return (
     <section className='footer'>
       <div className='footer1'>
         <div className='footer1-left'>
-          <img src={logo} alt='sd'/>
+         <Link to='/getaquote'><img src={logo} alt='sd'/></Link> 
           <p>This is Neat is a bond cleaning service keeping tenants,
              real estate agents and property managers happy all across Sydney and Melbourne.</p>
           <span> <FaFacebookF/> <FaTwitter/> <FaGoogle/> <FaInstagram/></span>
