@@ -1,19 +1,12 @@
 import React from 'react'
-import { useGlobalContext } from '../context'
-import PanelLocation from './PanelLocation'
-import PanelResources from './PanelResources'
-import PanelServices from './PanelServices'
-
-//import Home from './Home'
-const Main = () => {
-    const {isPanelLocationOpen,isPanelServicesOpen,isPanelResourcesOpen} = useGlobalContext()
+import { Link } from 'react-router-dom'
+import Clean1 from '../image/clean1.webp'
+import Clean2 from '../image/clean2.webp'
+import Clean3 from '../image/clean3.webp'
+const Home = () => {
   return (
-<div className="main">
-    {isPanelLocationOpen&& <PanelLocation/>}
-    {isPanelServicesOpen && <PanelServices/>}
-    {isPanelResourcesOpen && <PanelResources/>}
-    
-    {/* <div className="home-bg">
+    <>
+        <div className="home-bg">
       <div className="feature-content">
         <h1>You move out, we clean up.</h1>
         <h3>The simplest way to get your bond back. Guaranteed.*</h3>
@@ -37,7 +30,7 @@ const Main = () => {
           <p className="card-text">With our famous 72-hour bond back guarantee*, our cleaners always ensure tenants recover their full rental deposits.</p>
 
         </div>
-       <span className="learn-more"> <button>learn more</button> <i className="fa-solid fa-arrow-right"></i></span>
+        <Link to='/nothing' className="learn-more"> <button>learn more</button> <i className="fa-solid fa-arrow-right"></i></Link>
       </div>
 
 
@@ -47,7 +40,7 @@ const Main = () => {
           <h4>Vacate Cleaning</h4>
           <p className="card-text">Our 5-star rated cleaners specialise in helping renters pass their final vacate inspections.</p>
         </div>
-        <span className="learn-more"> <button>learn more</button> <i className="fa-solid fa-arrow-right"></i></span>
+        <Link to='/nothing' className="learn-more"> <button>learn more</button> <i className="fa-solid fa-arrow-right"></i></Link>
 
       </div>
 
@@ -57,7 +50,7 @@ const Main = () => {
           <h4>Moving Cleaning</h4>
           <p className="card-text">Our cleaning teams will make sure your property is ready for sale, a rental inspection, or for your family to move into.</p>
         </div>
-        <span className="learn-more"> <button>learn more</button> <i className="fa-solid fa-arrow-right"></i></span>
+        <Link to='/nothing' className="learn-more"> <button>learn more</button> <i className="fa-solid fa-arrow-right"></i></Link>
 
      </div>
     </div>
@@ -111,9 +104,9 @@ const Main = () => {
       </div>
     </div>
 
-    </div> */}
-</div>
+    </div>
+    </>
   )
 }
 
-export default Main
+export default Home

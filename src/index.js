@@ -4,13 +4,16 @@ import './index.css';
 import App from './App';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
+import { BrowserRouter } from "react-router-dom";
 import { AppProvider } from './context';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
 
    <AppProvider>
-      <App />
+      <BrowserRouter>
+         <App />
+      </BrowserRouter>
    </AppProvider>
 );
 

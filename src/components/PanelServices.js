@@ -16,7 +16,7 @@ const PanelResources = () => {
         console.log(center)
     },[location])
   return (
-    <aside className={`${isPanelServicesOpen?'show':"no-show"}` }  ref={container}>
+    <aside className={`${isPanelServicesOpen?'show':"no-show"} show-services` }  ref={container}>
         <div className='location'>
           <div className='location1'>
             <img src={Clean1} alt='sth'/>
