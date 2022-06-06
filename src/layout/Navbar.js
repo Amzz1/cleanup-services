@@ -47,7 +47,7 @@ const Navbar = () => {
     <>
    {sideMenu?<SideMenu/>:""} <nav className='nav'>
          <div className='nav-header'>
-            <Link to='/' className="navbar-brand" href="#">
+            <Link to='/this-is-neat' className="navbar-brand" href="#">
                <img src={logo} alt="" className="logo"/>
             </Link>
             <button onClick={()=>setSideMenu(item=>!item)} className='nav-toggle'><FaBars/></button>
@@ -70,14 +70,14 @@ const Navbar = () => {
             {isPanelResourcesOpen? <RiArrowUpSLine/>: <RiArrowDownSLine/>}
 
           </li>
-          <Link to='/blog' className="nav-item">
+          <Link to='/this-is-neat/blog' className="nav-item">
             <a className="nav-link" href="#">blog</a>
           </Link>
           <li className="nav-item">
             <a className="nav-link" href="https://www.google.com.au/search?rlz=1C5CHFA_enAU763AU763&ei=dk3SXJjpC4ao_QbswquQAQ&q=this+is+neat+cleaning+sydney&oq=this+is+neat+cleaning+sydney&gs_l=psy-ab.3..33i21.13806.14467..14553...0.0..0.218.892.0j4j1......0....1..gws-wiz.......0i71j0i22i30j33i22i29i30.ySpCyBxpw1Q#lrd=0x6b12b9f8d4ae6a43:0x4d6a4d6ebad0981f,1,,,">reviews</a>
           </li>
          
-          <Link to='/getaquote' className=" nav-item get-quote">
+          <Link to='/this-is-neat/getaquote' className=" nav-item get-quote">
            <a className="nav-link " href="#">get a quote</a>
            </Link>
   
