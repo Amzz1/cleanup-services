@@ -24,7 +24,7 @@ const Blog = () => {
           <p className="card-text">Maybe it was laughing uncontrollably while your kitten tried catnip for the first time or secretly teaching your puppy how…</p>
 
         </div>
-       <Link to='/this-is-neat/nothing' className="learn-more"> <button>learn more</button> <i className="fa-solid fa-arrow-right"></i></Link>
+       <Link to='/nothing' className="learn-more"> <button>learn more</button> <i className="fa-solid fa-arrow-right"></i></Link>
       </div>
       <div className="card mb-5" >
         <img src={Blog2} className="card-img-top" alt="..."/>

@@ -10,7 +10,7 @@ function App() {
   return (
   <div>
     <Routes>
-      <Route path='/this-is-neat' element={<Layout/>}>
+      <Route path='/' element={<Layout/>}>
         <Route index element={<Home/>}/>
         <Route path="getaquote" element={<Getquote/>}/>
         <Route path='blog' element={<Blog/>}/>

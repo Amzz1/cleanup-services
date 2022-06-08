@@ -111,7 +111,7 @@ const handleSubmit = (e)=>{
            <h3>Our end of lease cleaning checklist covers all the important details
            that your real estate agent is looking for.</h3>
         </div>
-       <div className='checklist'>
+  <div className='checklist'>
   
   <div className='rooms list-jobs'>
      <div className='places'>
@@ -226,7 +226,7 @@ const handleSubmit = (e)=>{
              <p>Other rooms should include any dining, family, sun, or study rooms.</p>
           </div>
           <div className='choices'>
-             <div className='choice'> 
+             <div className='choice choice-radio'> 
                <input
                  type='radio'
                  id='studio'
@@ -237,7 +237,7 @@ const handleSubmit = (e)=>{
                  />
               <label htmlFor='studio'>Studio</label>
              </div>
-            <div className='choice'>
+            <div className='choice choice-radio'>
               <input
                  type='radio'
                  id='apartment'
@@ -249,7 +249,7 @@ const handleSubmit = (e)=>{
               <label htmlFor='studio'>Apartment</label>
             </div>
         
-            <div className='choice'>
+            <div className='choice choice-radio'>
               <input
                 type='radio'
                 id='house'
